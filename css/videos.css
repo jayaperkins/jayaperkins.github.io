@@ -1,0 +1,31 @@
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+	position: relative;
+	z-index: 2;
+	margin: 0 auto;
+	max-width: 720px;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	font-size: 5rem;
+}
+
+.content__heading {
+	margin-bottom: 2rem;
+	color: #000000;
+}
+
+.content__teaser {
+	margin-bottom: 2rem;
+	color: #000000;
+	font-size: 2rem;
+}
